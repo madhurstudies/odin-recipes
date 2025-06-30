@@ -29,4 +29,8 @@ body {
     font-family: consolas;
     font-size: smaller;
 }
-/* -------------------------------------- */
+
+/* -------------test-1----------------- */
+.ancestor .child{
+    color: #00ADB5;
+}

@@ -10,10 +10,20 @@
     <h1>TESTING ZONE</h1>
     <hr>
     <h3 class="testingheading">
-        1. TESTING ANCESTOR AND CHILD
+        1. TESTING Descendant combinator
     </h3>
     <div class="testzone">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti debitis inventore saepe ut nemo eveniet ducimus excepturi cupiditate. Molestias veritatis sit atque ipsum non libero dolores sint qui officia ratione.
+        <div class="ancestor">
+            ancestor
+            <div class="child">
+                ancestor's child
+                <!-- this is inside ancestor class named as child...so css have .ancstor <space> .child -->
+            </div>
+        </div>
+        <div class="child">
+            not ancestor's child
+            <!-- not inside ancestor class so this is not selected for .ancesotr .child styling -->
+        </div>
     </div> 
 </body>
 </html>
