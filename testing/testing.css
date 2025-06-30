@@ -18,6 +18,14 @@ body {
     background-color: var(--primary);
     color: var(--prim2);
 }
+#notice{
+    font-size: xx-small;
+
+    transition: font-size 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+#notice:hover{
+    font-size: large;
+}
 .testingheading{
     color: var(--col2c);
     font-style: italic;
